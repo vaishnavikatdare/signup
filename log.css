@@ -1,0 +1,92 @@
+.wrap {
+	background: url(iiii.jpg) no-repeat;
+	background-size: cover;
+
+}
+
+
+.position {
+	width: 400px;
+margin: auto;
+padding-top: 10px;
+padding-left: 300px;
+}
+
+h2 {
+	color: white;
+	padding-bottom: 60px;
+	font-family: monospace, sans-serif;
+
+	width: 400px;
+	margin-left: 35px;
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 1px white;
+
+
+
+}
+
+form ul {
+	padding-left: 0;
+	width: 380px;
+	margin: auto;
+}
+
+form li {
+
+	list-style: none;
+	padding-bottom: 10px;
+	font-family: sans-serif;
+}
+.pass {
+	color: white;
+}
+
+.submitt{
+	padding-top: 20px;
+
+	padding-left: 160px;
+	width: 400px;
+	margin: auto;
+
+}
+
+
+.submit{
+	padding-top: 30px;
+
+	padding-left: 180px;
+	width: 400px;
+	margin: auto;
+
+}
+.border {
+	padding-top: 10px;
+	width: 410px;
+
+	border-radius: 5px;
+    border-top: 1px solid #d8dee2;
+	background-color: rgba(0,0,0,0.2);
+}
+ li {
+ 	padding-top:10px;
+ 	list-style: none;
+ }
+
+ /*.signin {
+ 	padding-top:20px;
+ 	padding-left: 100px;
+ 	color: white;
+ }
+*/
+.image {
+	width: 35px;
+	margin: auto;
+
+
+	shape-image-threshold: circle;
+}
+a:hover {
+font-size: 20px;
+}

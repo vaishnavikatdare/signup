@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+
+
+	<title>login</title>
+	<link rel="stylesheet" type="text/css" href="log.css">
+	  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="wrap">
+	<div class="position">
+
+		<h2 class="pass">Login to your account</h2>
+
+
+
+
+
+		<div class="border"><form method="post" action="/submit_login/" class="d"><form>
+				<ul>
+					<li>
+					<div class="image"><img src="face.png" alt="face" width="40px" height="40px"></div>
+		<br>
+						<label for="login_field" class="pass"> enter your email address </label></li>
+
+						<input id="login_field" class="form-control input-block" type="text" tabindex="1"  placeholder="email address" name="login">
+
+					</li>
+						<br>
+						<br>
+					<li>
+						<label for="password" class="pass"> Password </label>
+						<br>
+
+						<input id="password" class="form-control form-control input-block" type="password" tabindex="2" placeholder="password" name="password">
+
+					</li>
+
+					<li class="submitt"><input type="submit" name="submit" class="btn btn-success" value="login" ></li>
+
+
+
+				</ul>
+			</form>
+
+		</div>
+
+		<div>
+			<!-- <p class="signin">create new account</p> -->
+			<li class="submit">
+			<a href="/signup/">
+			sign in
+			</a>
+			</li>
+		</div>
+
+	</div>
+</body>
+</html>
